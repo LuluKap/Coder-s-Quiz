@@ -1,6 +1,19 @@
+generateBtn = document.querySelector("#start");
+
+function startQuiz(){
+    
+
+}
+
+generateBtn.addEventListener("click", startQuiz);
+
+
+
+
 let questions = [
     {
-        number 1: "What does HTML stand for?",
+        number: 1, 
+        question: "What does HTML stand for?",
         choices: 
         ["Hyper Text Markup Language", 
         "Hyper Teen Madeup  Language", 
@@ -9,7 +22,8 @@ let questions = [
         answer: "Hyper Text Markup Language",
         },
     {  
-        number 2: "What does CSS stand for?",
+        number: 2,
+        question: "What does CSS stand for?",
         choices: 
         ["Cascading Style Sheet", 
         "Creating Style Sheet", 
@@ -18,10 +32,33 @@ let questions = [
         answer: "Cascading Style Sheet",
         },  
     {
-        number 3: "What does JS stand for?",
+        number: 3,
+        question: "What does JS stand for?",
         choices:
         ["Jar Script",
         "Jello Store",
         "Javascript",
         "JustSimple"],
-        }   
+        answer: "Javascript",
+        },
+    {
+        number: 4,
+        question: "What should you put in the <head> tag?",
+        choices:
+        ["<title>",
+        "<body>",
+        "<aisde>",
+        "<p>"],
+        answer: "<title>",
+        },
+    {
+        number: 5,
+        question: "What tag is used to define an image?",
+        choices:
+        ["<p>",
+        "<div>",
+        "<img>",
+        "<h1>"],
+        answer: "<img>",
+        },
+    ]
